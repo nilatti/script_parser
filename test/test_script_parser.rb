@@ -24,27 +24,27 @@ end
 class ScriptParserTest < Test::Unit::TestCase
  def test_character_list
   @characters = Character.all_instances
-  
+
   assert_not_same(@characters[0], @characters[1])
   assert_equal(3, @characters.size)
 
  end
 
  def test_open_script
-  open_script("./data/test_script.html")
+  open_script("../data/test_script.html")
   assert_not_nil(@contents)
  end
 
  def test_get_characters
-  
-  open_script("./data/test_script.html")
+
+  open_script("../data/test_script.html")
   @characters = Character.all_instances
   get_characters
   assert_equal(20, @characters.size)
  end
 
  def test_count_lines
-  open_script("./data/test_script.html")
+  open_script("../data/test_script.html")
   @characters = Character.all_instances
   get_characters
   count_lines

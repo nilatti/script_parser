@@ -30,8 +30,8 @@ def edit_characters
         	edit = gets.chomp
         	character.name = edit.upcase
         elsif choice.downcase =~ /cancel/
-        	
-        else 
+
+        else
         	puts "I'm sorry, I didn't understand that input. Try again?" #make this better so it loops back
         end
     end
@@ -96,5 +96,5 @@ def count_lines
 		    puts line
 		end
 	end
-	
+
 end
