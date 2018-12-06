@@ -1,0 +1,35 @@
+.act-scene{
+  font-size: 2em;
+}
+.act {
+  border-top: 1px solid black
+}
+.author {}
+.character-name {
+  font-weight:bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.characters-list{
+  list-style-type: none;
+}
+.cut{
+  color: purple;
+  display: none;
+}
+.lines {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.scene {
+  border-top: 1px dotted gray
+}
+.setting {
+  font-size: 1.25em;
+  font-style: italic;
+}
+.stage-directions {
+  font-style: italic;
+}
+.title {
+}

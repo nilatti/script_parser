@@ -1,0 +1,1690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <listPerson>
+    <person xml:id="RichardIII_R3">
+      <persName>
+        <name>Richard</name>
+      </persName>
+      <state>
+        <p>Duke of Gloucester, later King Richard III</p>
+      </state>
+      <sex value="1">male</sex>
+      <death when-custom="ftln-3724"/>
+    </person>
+    <person xml:id="LadyAnne_R3">
+      <persName>
+        <name>Lady Anne</name>
+      </persName>
+      <state>
+        <p>widow of Edward, son to the late King Henry VI;<lb xml:id="lb-00000"/>later wife to Richard</p>
+      </state>
+      <sex value="2">female</sex>
+      <death notBefore-custom="ftln-2560" notAfter-custom="ftln-2676"/>
+    </person>
+    <person xml:id="EdwardIV_3H6">
+      <persName>
+        <name>King Edward IV</name>
+      </persName>
+      <state>
+        <p>brother to Richard</p>
+      </state>
+      <sex value="1">male</sex>
+      <death notBefore-custom="ftln-1261" notAfter-custom="ftln-1309"/>
+    </person>
+    <person xml:id="QueenElizabeth_3H6">
+      <persName>
+        <name>Queen Elizabeth</name>
+      </persName>
+      <state>
+        <p>Edward’s wife, formerly the Lady Grey</p>
+      </state>
+      <sex value="2">female</sex>
+    </person>
+    <head>
+      <rs ref="#EdwardIV_3H6 #QueenElizabeth_3H6">their</rs> sons</head>
+      <person xml:id="EdwardV_R3">
+        <persName>
+          <name>Prince Edward</name>
+        </persName>
+        <sex value="1">male</sex>
+        <death notBefore-custom="ftln-2591" notAfter-custom="ftln-2634"/>
+      </person>
+      <person xml:id="York_R3">
+        <persName>
+          <name>Richard, Duke of York</name>
+        </persName>
+        <sex value="1">male</sex>
+        <death notBefore-custom="ftln-2591" notAfter-custom="ftln-2634"/>
+      </person>
+      <person xml:id="Clarence_3H6">
+        <persName>
+          <name>George, Duke of Clarence</name>
+        </persName>
+        <state>
+          <p>brother to Edward and Richard</p>
+        </state>
+        <sex value="1">male</sex>
+        <death when-custom="ftln-1107"/>
+      </person>
+      <person xml:id="ClarencesBoy_R3">
+        <persName>Clarence’s <name>Boy</name>
+      </persName>
+      <sex value="1">male</sex>
+    </person>
+    <person xml:id="ClarencesDaughter_R3">
+      <persName>Clarence’s <name>Daughter</name>
+    </persName>
+    <sex value="2">female</sex>
+  </person>
+  <person xml:id="DuchessOfYork_R3">
+    <persName>
+      <name>Duchess of York</name>
+    </persName>
+    <state>
+      <p>mother of Richard, Edward, and Clarence</p>
+    </state>
+    <sex value="2">female</sex>
+  </person>
+  <person xml:id="QueenMargaret_1H6">
+    <persName>
+      <name>Queen Margaret</name>
+    </persName>
+    <state>
+      <p>widow of King Henry VI</p>
+    </state>
+    <sex value="2">female</sex>
+  </person>
+  <person xml:id="Buckingham_R3">
+    <persName>
+      <name>Duke of Buckingham</name>
+    </persName>
+    <sex value="1">male</sex>
+    <death notBefore-custom="ftln-3313" notAfter-custom="ftln-3515"/>
+  </person>
+  <person xml:id="Hastings_3H6">
+    <persName>
+      <name>William, Lord Hastings</name>
+    </persName>
+    <state>
+      <p>Lord Chamberlain</p>
+    </state>
+    <sex value="1">male</sex>
+    <death notBefore-custom="ftln-2021" notAfter-custom="ftln-2042"/>
+  </person>
+  <person xml:id="Stanley_R3">
+    <persName>
+      <name>Lord Stanley</name>
+    </persName>
+    <state>
+      <p>Earl of Derby</p>
+    </state>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Rivers_3H6">
+    <persName>
+      <name>Earl Rivers</name>
+    </persName>
+    <state>
+      <p>brother to Queen Elizabeth</p>
+    </state>
+    <sex value="1">male</sex>
+    <death notBefore-custom="ftln-1912" notAfter-custom="ftln-2765"/>
+  </person>
+  <head>sons of Queen Elizabeth by her<lb xml:id="lb-00001"/>former marriage</head>
+  <person xml:id="Grey_R3">
+    <persName>
+      <name>Lord Grey</name>
+    </persName>
+    <sex value="1">male</sex>
+    <death notBefore-custom="ftln-1912" notAfter-custom="ftln-2765"/>
+  </person>
+  <person xml:id="Dorset_R3">
+    <persName>
+      <name>Marquess of Dorset</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Vaughan_R3">
+    <persName>
+      <name>Sir Thomas Vaughan</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <head>Richard’s supporters</head>
+  <person xml:id="Catesby_R3">
+    <persName>
+      <name>Sir William Catesby</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Ratcliffe_R3">
+    <persName>
+      <name>Sir Richard Ratcliffe</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Lovell_R3">
+    <persName>
+      <name>Lord Lovell</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Norfolk_R3">
+    <persName>
+      <name>Duke of Norfolk</name>
+    </persName>
+    <sex value="1">male</sex>
+    <death notBefore-custom="ftln-3717" notAfter-custom="ftln-3737"/>
+  </person>
+  <person xml:id="Surrey_R3">
+    <persName>
+      <name>Earl of Surrey</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="HenryVII_R3">
+    <persName>
+      <name>Earl of Richmond</name>
+    </persName>
+    <state>
+      <p>Henry Tudor, later King Henry VII</p>
+    </state>
+    <sex value="1">male</sex>
+  </person>
+  <head>Richmond’s supporters</head>
+  <person xml:id="Oxford_3H6">
+    <persName>
+      <name>Earl of Oxford</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Blunt_R3">
+    <persName>
+      <name>Sir James Blunt</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Herbert_R3">
+    <persName>
+      <name>Sir Walter Herbert</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Brandon_R3">
+    <persName>
+      <name>Sir William Brandon</name>
+    </persName>
+    <sex value="1">male</sex>
+    <death notBefore-custom="ftln-3717" notAfter-custom="ftln-3737"/>
+  </person>
+  <person xml:id="SirChristopher_R3">
+    <persName>
+      <name>Sir Christopher</name>
+    </persName>
+    <state>
+      <p>a priest</p>
+    </state>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Archbishop_R3">
+    <persName>
+      <name>Archbishop</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Cardinal_R3">
+    <persName>
+      <name>Cardinal</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="BishopOfEly_R3">
+    <persName>
+      <name>John Morton, Bishop of Ely</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Brakenbury_R3">
+    <persName>
+      <name>Sir Robert Brakenbury</name>
+    </persName>
+    <state>
+      <p>Lieutenant of the Tower in London</p>
+    </state>
+    <sex value="1">male</sex>
+    <death notBefore-custom="ftln-3717" notAfter-custom="ftln-3737"/>
+  </person>
+  <person xml:id="Tyrrel_R3">
+    <persName>
+      <name>James Tyrrel</name>
+    </persName>
+    <state>
+      <p>gentleman</p>
+    </state>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="GENTLEMEN.0.1_R3" corresp="#GENTLEMEN_R3">
+    <persName>
+      <name>Gentleman</name>
+    </persName>
+    <state>
+      <p>attending Lady Anne</p>
+    </state>
+    <sex value="1">male</sex>
+  </person>
+  <personGrp xml:id="MURDERERS_R3">
+    <p>Two <name>Murderers</name>
+  </p>
+</personGrp>
+<person xml:id="MURDERERS.1_R3" corresp="#MURDERERS_R3"/>
+<person xml:id="MURDERERS.2_R3" corresp="#MURDERERS_R3"/>
+<person xml:id="Jailer_R3">
+  <persName>
+    <name>Keeper</name> in the Tower</persName>
+    <sex value="1">male</sex>
+  </person>
+  <personGrp xml:id="CITIZENS_R3">
+    <p>Three <name>Citizens</name>
+  </p>
+</personGrp>
+<person xml:id="CITIZENS.0_R3" corresp="#CITIZENS_R3"/>
+<person xml:id="CITIZENS.1_R3" corresp="#CITIZENS_R3"/>
+<person xml:id="CITIZENS.2_R3" corresp="#CITIZENS_R3"/>
+<person xml:id="CITIZENS.3_R3" corresp="#CITIZENS_R3"/>
+<person xml:id="MayorOfLondon_R3">
+  <persName>
+    <name>Lord Mayor</name> of London</persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Pursuivant_R3">
+    <persName>
+      <name>Pursuivant</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="SirJohn_R3">
+    <persName>
+      <name>Sir John</name>
+    </persName>
+    <state>
+      <p>a priest</p>
+    </state>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Scrivener_R3">
+    <persName>
+      <name>Scrivener</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="ATTENDANTS.0.1_R3" corresp="#ATTENDANTS_R3">
+    <persName>
+      <name>Page</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <person xml:id="Sheriff_R3">
+    <persName>
+      <name>Sheriff</name>
+    </persName>
+    <sex value="1">male</sex>
+  </person>
+  <personGrp xml:id="MESSENGERS_R3">
+    <p>Seven <name>Messengers</name>
+  </p>
+</personGrp>
+<person xml:id="MESSENGERS.1_R3" corresp="#MESSENGERS_R3"/>
+<person xml:id="MESSENGERS.2_R3" corresp="#MESSENGERS_R3"/>
+<person xml:id="MESSENGERS.3_R3" corresp="#MESSENGERS_R3"/>
+<person xml:id="MESSENGERS.4_R3" corresp="#MESSENGERS_R3"/>
+<person xml:id="MESSENGERS.X.1_R3" corresp="#MESSENGERS_R3"/>
+<person xml:id="MESSENGERS.X.2_R3" corresp="#MESSENGERS_R3"/>
+<person xml:id="MESSENGERS.X.3_R3" corresp="#MESSENGERS_R3"/>
+<personGrp xml:id="GHOSTS_R3">
+  <p>
+    <name>Ghosts</name> of King Henry VI, his son Prince Edward, Clarence, Rivers, Grey, Vaughan, the two Princes, Hastings, Lady Anne, and Buckingham</p>
+  </personGrp>
+  <person xml:id="HenryVI_1H6">
+    <death when-custom="3H6:ftln-2877"/>
+  </person>
+  <person xml:id="PrinceEdward_3H6">
+    <death notBefore-custom="3H6:ftln-2762" notAfter-custom="3H6:ftln-2764"/>
+  </person>
+  <head>Guards, Tressel, Berkeley, Halberds, Gentlemen, Anthony Woodeville and Lord Scales (brothers to Queen Elizabeth), Two Bishops, Sir William Brandon, Lords, Attendants, Citizens, Aldermen, Councillors, Soldiers</head>
+  <personGrp xml:id="ATTENDANTS_R3"/>
+  <personGrp xml:id="ATTENDANTS.0_R3" corresp="#ATTENDANTS_R3"/>
+  <personGrp xml:id="BISHOPS_R3"/>
+  <personGrp xml:id="GENTLEMEN_R3"/>
+  <personGrp xml:id="GENTLEMEN.0_R3" corresp="#GENTLEMEN_R3"/>
+  <personGrp xml:id="GUARDS_R3"/>
+  <personGrp xml:id="ATTENDANTS.RICHMOND_R3" corresp="#ATTENDANTS_R3"/>
+  <person xml:id="ATTENDANTS.RICHMOND.0.1_R3" corresp="#ATTENDANTS.RICHMOND_R3"/>
+  <personGrp xml:id="SOLDIERS_R3"/>
+  <personGrp xml:id="SOLDIERS.RICHARD_R3" corresp="#SOLDIERS_R3"/>
+  <personGrp xml:id="SOLDIERS.RICHARD.0_R3" corresp="#SOLDIERS.RICHARD_R3"/>
+  <personGrp xml:id="SOLDIERS.RICHMOND_R3" corresp="#SOLDIERS_R3"/>
+  <person xml:id="Scales_R3"/>
+  <person xml:id="Woodeville_R3"/>
+</listPerson>
+<body>
+  <pb xml:id="pb-009" n="9" spanTo="#ms-009"/>
+  <div1 type="act" n="1">
+    <head>
+      <w cut_hs="0" cut_gen="0" xml:id="w0000010">ACT</w>
+      <c xml:id="c0000020">
+      </c>
+      <w cut_hs="0" cut_gen="0" xml:id="w0000030">1</w>
+    </head>
+    <div2 type="scene" n="1">
+      <head>
+        <w cut_hs="0" cut_gen="0" xml:id="w0000040">Scene</w>
+        <c xml:id="c0000050">
+        </c>
+        <w cut_hs="0" cut_gen="0" xml:id="w0000060">1</w>
+      </head>
+      <stage xml:id="stg-0000" n="SD 1.1.0" type="entrance" who="#RichardIII_R3">
+        <w cut_hs="0" cut_gen="0" xml:id="w0000070" n="SD 1.1.0">Enter</w>
+        <c xml:id="c0000080" n="SD 1.1.0">
+        </c>
+        <w cut_hs="0" cut_gen="0" xml:id="w0000090" n="SD 1.1.0">Richard</w>
+        <pc xml:id="p0000100" n="SD 1.1.0">,</pc>
+        <c xml:id="c0000110" n="SD 1.1.0">
+        </c>
+        <w cut_hs="0" cut_gen="0" xml:id="w0000120" n="SD 1.1.0">Duke</w>
+        <c xml:id="c0000130" n="SD 1.1.0">
+        </c>
+        <w cut_hs="0" cut_gen="0" xml:id="w0000140" n="SD 1.1.0">of</w>
+        <c xml:id="c0000150" n="SD 1.1.0">
+        </c>
+        <w cut_hs="0" cut_gen="0" xml:id="w0000160" n="SD 1.1.0">Gloucester</w>
+        <pc xml:id="p0000170" n="SD 1.1.0">,</pc>
+        <c xml:id="c0000180" n="SD 1.1.0">
+        </c>
+        <w cut_hs="0" cut_gen="0" xml:id="w0000190" n="SD 1.1.0">alone</w>
+        <pc xml:id="p0000200" n="SD 1.1.0">.</pc>
+      </stage>
+      <lb xml:id="lb-00004"/>
+      <lb xml:id="lb-00005"/>
+      <sp xml:id="sp-0001" who="#RichardIII_R3">
+        <speaker xml:id="spk-0001">
+          <w cut_hs="0" cut_gen="0" xml:id="w0000210">RICHARD</w>
+        </speaker>
+        <ab xml:id="ab-0001">
+          <lb xml:id="lb-00006"/>
+          <milestone cut_hs="1" cut_gen="0" unit="ftln" xml:id="ftln-0001" n="1.1.1" ana="#verse" corresp="#w0000220 #c0000230 #w0000240 #c0000250 #w0000260 #c0000270 #w0000280 #c0000290 #w0000300 #c0000310 #w0000320 #c0000330 #w0000340"/>
+          <w cut_hs="1" cut_gen="0" xml:id="w0000220" n="1.1.1">Now</w>
+          <c xml:id="c0000230" n="1.1.1">
+          </c>
+          <w cut_hs="1" cut_gen="0" xml:id="w0000240" n="1.1.1">is</w>
+          <c xml:id="c0000250" n="1.1.1">
+          </c>
+          <w cut_hs="1" cut_gen="0" xml:id="w0000260" n="1.1.1">the</w>
+          <c xml:id="c0000270" n="1.1.1">
+          </c>
+          <w cut_hs="1" cut_gen="0" xml:id="w0000280" n="1.1.1">winter</w>
+          <c xml:id="c0000290" n="1.1.1">
+          </c>
+          <w cut_hs="1" cut_gen="0" xml:id="w0000300" n="1.1.1">of</w>
+          <c xml:id="c0000310" n="1.1.1">
+          </c>
+          <w cut_hs="1" cut_gen="0" xml:id="w0000320" n="1.1.1">our</w>
+          <c xml:id="c0000330" n="1.1.1">
+          </c>
+          <w cut_hs="1" cut_gen="0" xml:id="w0000340" n="1.1.1">discontent</w>
+          <lb xml:id="lb-00010"/>
+          <milestone unit="ftln" xml:id="ftln-0002" n="1.1.2" ana="#verse" corresp="#w0000350 #c0000360 #w0000370 #c0000380 #w0000390 #c0000400 #w0000410 #c0000420 #w0000430 #c0000440 #w0000450 #c0000460 #w0000470 #c0000480 #w0000490 #p0000500"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000350" n="1.1.2">Made</w>
+          <c xml:id="c0000360" n="1.1.2">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000370" n="1.1.2">glorious</w>
+          <c xml:id="c0000380" n="1.1.2">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000390" n="1.1.2">summer</w>
+          <c xml:id="c0000400" n="1.1.2">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000410" n="1.1.2">by</w>
+          <c xml:id="c0000420" n="1.1.2">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000430" n="1.1.2">this</w>
+          <c xml:id="c0000440" n="1.1.2">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000450" n="1.1.2">son</w>
+          <c xml:id="c0000460" n="1.1.2">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000470" n="1.1.2">of</w>
+          <c xml:id="c0000480" n="1.1.2">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000490" n="1.1.2">York</w>
+          <pc xml:id="p0000500" n="1.1.2">,</pc>
+          <lb xml:id="lb-00020"/>
+          <milestone unit="ftln" xml:id="ftln-0003" n="1.1.3" ana="#verse" corresp="#w0000510 #c0000520 #w0000530 #c0000540 #w0000550 #c0000560 #w0000570 #c0000580 #w0000590 #c0000600 #w0000610 #c0000620 #w0000630 #c0000640 #w0000650 #c0000660 #w0000670"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000510" n="1.1.3">And</w>
+          <c xml:id="c0000520" n="1.1.3">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000530" n="1.1.3">all</w>
+          <c xml:id="c0000540" n="1.1.3">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000550" n="1.1.3">the</w>
+          <c xml:id="c0000560" n="1.1.3">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000570" n="1.1.3">clouds</w>
+          <c xml:id="c0000580" n="1.1.3">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000590" n="1.1.3">that</w>
+          <c xml:id="c0000600" n="1.1.3">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000610" n="1.1.3">loured</w>
+          <c xml:id="c0000620" n="1.1.3">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000630" n="1.1.3">upon</w>
+          <c xml:id="c0000640" n="1.1.3">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000650" n="1.1.3">our</w>
+          <c xml:id="c0000660" n="1.1.3">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000670" n="1.1.3">house</w>
+          <lb xml:id="lb-00030"/>
+          <milestone unit="ftln" xml:id="ftln-0004" n="1.1.4" ana="#verse" corresp="#w0000680 #c0000690 #w0000700 #c0000710 #w0000720 #c0000730 #w0000740 #c0000750 #w0000760 #c0000770 #w0000780 #c0000790 #w0000800 #c0000810 #w0000820 #p0000830"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000680" n="1.1.4">In</w>
+          <c xml:id="c0000690" n="1.1.4">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000700" n="1.1.4">the</w>
+          <c xml:id="c0000710" n="1.1.4">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000720" n="1.1.4">deep</w>
+          <c xml:id="c0000730" n="1.1.4">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000740" n="1.1.4">bosom</w>
+          <c xml:id="c0000750" n="1.1.4">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000760" n="1.1.4">of</w>
+          <c xml:id="c0000770" n="1.1.4">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000780" n="1.1.4">the</w>
+          <c xml:id="c0000790" n="1.1.4">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000800" n="1.1.4">ocean</w>
+          <c xml:id="c0000810" n="1.1.4">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000820" n="1.1.4">buried</w>
+          <pc xml:id="p0000830" n="1.1.4">.</pc>
+          <lb xml:id="lb-00040"/>
+          <milestone unit="ftln" xml:id="ftln-0005" n="1.1.5" ana="#verse" corresp="#w0000840 #c0000850 #w0000860 #c0000870 #w0000880 #c0000890 #w0000900 #c0000910 #w0000920 #c0000930 #w0000940 #c0000950 #w0000960 #c0000970 #w0000980 #p0000990"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000840" n="1.1.5">Now</w>
+          <c xml:id="c0000850" n="1.1.5">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000860" n="1.1.5">are</w>
+          <c xml:id="c0000870" n="1.1.5">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000880" n="1.1.5">our</w>
+          <c xml:id="c0000890" n="1.1.5">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000900" n="1.1.5">brows</w>
+          <c xml:id="c0000910" n="1.1.5">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000920" n="1.1.5">bound</w>
+          <c xml:id="c0000930" n="1.1.5">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000940" n="1.1.5">with</w>
+          <c xml:id="c0000950" n="1.1.5">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000960" n="1.1.5">victorious</w>
+          <c xml:id="c0000970" n="1.1.5">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0000980" n="1.1.5">wreaths</w>
+          <pc xml:id="p0000990" n="1.1.5">,</pc>
+          <lb xml:id="lb-00050"/>
+          <milestone unit="ftln" xml:id="ftln-0006" n="1.1.6" ana="#verse" corresp="#w0001000 #c0001010 #w0001020 #c0001030 #w0001040 #c0001050 #w0001060 #c0001070 #w0001080 #c0001090 #w0001100 #c0001110 #w0001120 #p0001130"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001000" n="1.1.6">Our</w>
+          <c xml:id="c0001010" n="1.1.6">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001020" n="1.1.6">bruisèd</w>
+          <c xml:id="c0001030" n="1.1.6">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001040" n="1.1.6">arms</w>
+          <c xml:id="c0001050" n="1.1.6">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001060" n="1.1.6">hung</w>
+          <c xml:id="c0001070" n="1.1.6">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001080" n="1.1.6">up</w>
+          <c xml:id="c0001090" n="1.1.6">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001100" n="1.1.6">for</w>
+          <c xml:id="c0001110" n="1.1.6">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001120" n="1.1.6">monuments</w>
+          <pc xml:id="p0001130" n="1.1.6">,</pc>
+          <lb xml:id="lb-00060"/>
+          <milestone unit="ftln" xml:id="ftln-0007" n="1.1.7" ana="#verse" corresp="#w0001140 #c0001150 #w0001160 #c0001170 #w0001180 #c0001190 #w0001200 #c0001210 #w0001220 #c0001230 #w0001240 #c0001250 #w0001260 #p0001270"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001140" n="1.1.7">Our</w>
+          <c xml:id="c0001150" n="1.1.7">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001160" n="1.1.7">stern</w>
+          <c xml:id="c0001170" n="1.1.7">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001180" n="1.1.7">alarums</w>
+          <c xml:id="c0001190" n="1.1.7">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001200" n="1.1.7">changed</w>
+          <c xml:id="c0001210" n="1.1.7">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001220" n="1.1.7">to</w>
+          <c xml:id="c0001230" n="1.1.7">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001240" n="1.1.7">merry</w>
+          <c xml:id="c0001250" n="1.1.7">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001260" n="1.1.7">meetings</w>
+          <pc xml:id="p0001270" n="1.1.7">,</pc>
+          <lb xml:id="lb-00070"/>
+          <milestone unit="ftln" xml:id="ftln-0008" n="1.1.8" ana="#verse" corresp="#w0001280 #c0001290 #w0001300 #c0001310 #w0001320 #c0001330 #w0001340 #c0001350 #w0001360 #c0001370 #w0001380 #p0001390"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001280" n="1.1.8">Our</w>
+          <c xml:id="c0001290" n="1.1.8">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001300" n="1.1.8">dreadful</w>
+          <c xml:id="c0001310" n="1.1.8">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001320" n="1.1.8">marches</w>
+          <c xml:id="c0001330" n="1.1.8">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001340" n="1.1.8">to</w>
+          <c xml:id="c0001350" n="1.1.8">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001360" n="1.1.8">delightful</w>
+          <c xml:id="c0001370" n="1.1.8">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001380" n="1.1.8">measures</w>
+          <pc xml:id="p0001390" n="1.1.8">.</pc>
+          <lb xml:id="lb-00080"/>
+          <milestone unit="ftln" xml:id="ftln-0009" n="1.1.9" ana="#verse" corresp="#w0001400 #c0001410 #w0001420 #c0001430 #w0001440 #c0001450 #w0001460 #c0001470 #w0001480 #c0001490 #w0001500 #c0001510 #w0001520 #p0001530"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001400" n="1.1.9">Grim-visaged</w>
+          <c xml:id="c0001410" n="1.1.9">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001420" n="1.1.9">war</w>
+          <c xml:id="c0001430" n="1.1.9">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001440" n="1.1.9">hath</w>
+          <c xml:id="c0001450" n="1.1.9">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001460" n="1.1.9">smoothed</w>
+          <c xml:id="c0001470" n="1.1.9">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001480" n="1.1.9">his</w>
+          <c xml:id="c0001490" n="1.1.9">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001500" n="1.1.9">wrinkled</w>
+          <c xml:id="c0001510" n="1.1.9">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001520" n="1.1.9">front</w>
+          <pc xml:id="p0001530" n="1.1.9">;</pc>
+          <lb xml:id="lb-00090"/>
+          <milestone unit="ftln" xml:id="ftln-0010" n="1.1.10" ana="#verse" corresp="#w0001540 #c0001550 #w0001560 #p0001570 #c0001580 #w0001590 #c0001600 #w0001610 #c0001620 #w0001630 #c0001640 #w0001650 #c0001660 #w0001670"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001540" n="1.1.10">And</w>
+          <c xml:id="c0001550" n="1.1.10">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001560" n="1.1.10">now</w>
+          <pc xml:id="p0001570" n="1.1.10">,</pc>
+          <c xml:id="c0001580" n="1.1.10">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001590" n="1.1.10">instead</w>
+          <c xml:id="c0001600" n="1.1.10">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001610" n="1.1.10">of</w>
+          <c xml:id="c0001620" n="1.1.10">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001630" n="1.1.10">mounting</w>
+          <c xml:id="c0001640" n="1.1.10">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001650" n="1.1.10">barbèd</w>
+          <c xml:id="c0001660" n="1.1.10">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001670" n="1.1.10">steeds</w>
+          <lb xml:id="lb-00100"/>
+          <milestone unit="ftln" xml:id="ftln-0011" n="1.1.11" ana="#verse" corresp="#w0001680 #c0001690 #w0001700 #c0001710 #w0001720 #c0001730 #w0001740 #c0001750 #w0001760 #c0001770 #w0001780 #c0001790 #w0001800 #p0001810"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001680" n="1.1.11">To</w>
+          <c xml:id="c0001690" n="1.1.11">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001700" n="1.1.11">fright</w>
+          <c xml:id="c0001710" n="1.1.11">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001720" n="1.1.11">the</w>
+          <c xml:id="c0001730" n="1.1.11">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001740" n="1.1.11">souls</w>
+          <c xml:id="c0001750" n="1.1.11">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001760" n="1.1.11">of</w>
+          <c xml:id="c0001770" n="1.1.11">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001780" n="1.1.11">fearful</w>
+          <c xml:id="c0001790" n="1.1.11">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001800" n="1.1.11">adversaries</w>
+          <pc xml:id="p0001810" n="1.1.11">,</pc>
+          <lb xml:id="lb-00110"/>
+          <milestone unit="ftln" xml:id="ftln-0012" n="1.1.12" ana="#verse" corresp="#w0001820 #c0001830 #w0001840 #c0001850 #w0001860 #c0001870 #w0001880 #c0001890 #w0001900 #c0001910 #w0001920 #c0001930 #w0001940"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001820" n="1.1.12">He</w>
+          <c xml:id="c0001830" n="1.1.12">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001840" n="1.1.12">capers</w>
+          <c xml:id="c0001850" n="1.1.12">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001860" n="1.1.12">nimbly</w>
+          <c xml:id="c0001870" n="1.1.12">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001880" n="1.1.12">in</w>
+          <c xml:id="c0001890" n="1.1.12">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001900" n="1.1.12">a</w>
+          <c xml:id="c0001910" n="1.1.12">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001920" n="1.1.12">lady’s</w>
+          <c xml:id="c0001930" n="1.1.12">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001940" n="1.1.12">chamber</w>
+          <lb xml:id="lb-00120"/>
+          <milestone unit="ftln" xml:id="ftln-0013" n="1.1.13" ana="#verse" corresp="#w0001950 #c0001960 #w0001970 #c0001980 #w0001990 #c0002000 #w0002010 #c0002020 #w0002030 #c0002040 #w0002050 #c0002060 #w0002070 #p0002080"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001950" n="1.1.13">To</w>
+          <c xml:id="c0001960" n="1.1.13">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001970" n="1.1.13">the</w>
+          <c xml:id="c0001980" n="1.1.13">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0001990" n="1.1.13">lascivious</w>
+          <c xml:id="c0002000" n="1.1.13">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002010" n="1.1.13">pleasing</w>
+          <c xml:id="c0002020" n="1.1.13">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002030" n="1.1.13">of</w>
+          <c xml:id="c0002040" n="1.1.13">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002050" n="1.1.13">a</w>
+          <c xml:id="c0002060" n="1.1.13">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002070" n="1.1.13">lute</w>
+          <pc xml:id="p0002080" n="1.1.13">.</pc>
+          <lb xml:id="lb-00130"/>
+          <milestone unit="ftln" xml:id="ftln-0014" n="1.1.14" ana="#verse" corresp="#w0002090 #c0002100 #w0002110 #p0002120 #c0002130 #w0002140 #c0002150 #w0002160 #c0002170 #w0002180 #c0002190 #w0002200 #c0002210 #w0002220 #c0002230 #w0002240 #c0002250 #w0002260 #p0002270"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002090" n="1.1.14">But</w>
+          <c xml:id="c0002100" n="1.1.14">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002110" n="1.1.14">I</w>
+          <pc xml:id="p0002120" n="1.1.14">,</pc>
+          <c xml:id="c0002130" n="1.1.14">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002140" n="1.1.14">that</w>
+          <c xml:id="c0002150" n="1.1.14">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002160" n="1.1.14">am</w>
+          <c xml:id="c0002170" n="1.1.14">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002180" n="1.1.14">not</w>
+          <c xml:id="c0002190" n="1.1.14">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002200" n="1.1.14">shaped</w>
+          <c xml:id="c0002210" n="1.1.14">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002220" n="1.1.14">for</w>
+          <c xml:id="c0002230" n="1.1.14">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002240" n="1.1.14">sportive</w>
+          <c xml:id="c0002250" n="1.1.14">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002260" n="1.1.14">tricks</w>
+          <pc xml:id="p0002270" n="1.1.14">,</pc>
+          <lb xml:id="lb-00140"/>
+          <milestone unit="ftln" xml:id="ftln-0015" n="1.1.15" ana="#verse" corresp="#w0002280 #c0002290 #w0002300 #c0002310 #w0002320 #c0002330 #w0002340 #c0002350 #w0002360 #c0002370 #w0002380 #c0002390 #w0002400 #c0002410 #w0002420 #p0002430"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002280" n="1.1.15">Nor</w>
+          <c xml:id="c0002290" n="1.1.15">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002300" n="1.1.15">made</w>
+          <c xml:id="c0002310" n="1.1.15">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002320" n="1.1.15">to</w>
+          <c xml:id="c0002330" n="1.1.15">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002340" n="1.1.15">court</w>
+          <c xml:id="c0002350" n="1.1.15">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002360" n="1.1.15">an</w>
+          <c xml:id="c0002370" n="1.1.15">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002380" n="1.1.15">amorous</w>
+          <c xml:id="c0002390" n="1.1.15">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002400" n="1.1.15">looking</w>
+          <c xml:id="c0002410" n="1.1.15">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002420" n="1.1.15">glass</w>
+          <pc xml:id="p0002430" n="1.1.15">;</pc>
+          <lb xml:id="lb-00150"/>
+          <milestone unit="ftln" xml:id="ftln-0016" n="1.1.16" ana="#verse" corresp="#w0002440 #p0002450 #c0002460 #w0002470 #c0002480 #w0002490 #c0002500 #w0002510 #c0002520 #w0002530 #c0002540 #w0002550 #c0002560 #w0002570 #c0002580 #w0002590 #c0002600 #w0002610"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002440" n="1.1.16">I</w>
+          <pc xml:id="p0002450" n="1.1.16">,</pc>
+          <c xml:id="c0002460" n="1.1.16">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002470" n="1.1.16">that</w>
+          <c xml:id="c0002480" n="1.1.16">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002490" n="1.1.16">am</w>
+          <c xml:id="c0002500" n="1.1.16">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002510" n="1.1.16">rudely</w>
+          <c xml:id="c0002520" n="1.1.16">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002530" n="1.1.16">stamped</w>
+          <c xml:id="c0002540" n="1.1.16">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002550" n="1.1.16">and</w>
+          <c xml:id="c0002560" n="1.1.16">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002570" n="1.1.16">want</w>
+          <c xml:id="c0002580" n="1.1.16">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002590" n="1.1.16">love’s</w>
+          <c xml:id="c0002600" n="1.1.16">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002610" n="1.1.16">majesty</w>
+          <lb xml:id="lb-00160"/>
+          <milestone unit="ftln" xml:id="ftln-0017" n="1.1.17" ana="#verse" corresp="#w0002620 #c0002630 #w0002640 #c0002650 #w0002660 #c0002670 #w0002680 #c0002690 #w0002700 #c0002710 #w0002720 #c0002730 #w0002740 #p0002750"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002620" n="1.1.17">To</w>
+          <c xml:id="c0002630" n="1.1.17">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002640" n="1.1.17">strut</w>
+          <c xml:id="c0002650" n="1.1.17">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002660" n="1.1.17">before</w>
+          <c xml:id="c0002670" n="1.1.17">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002680" n="1.1.17">a</w>
+          <c xml:id="c0002690" n="1.1.17">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002700" n="1.1.17">wanton</w>
+          <c xml:id="c0002710" n="1.1.17">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002720" n="1.1.17">ambling</w>
+          <c xml:id="c0002730" n="1.1.17">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002740" n="1.1.17">nymph</w>
+          <pc xml:id="p0002750" n="1.1.17">;</pc>
+          <lb xml:id="lb-00170"/>
+          <milestone unit="ftln" xml:id="ftln-0018" n="1.1.18" ana="#verse" corresp="#w0002760 #p0002770 #c0002780 #w0002790 #c0002800 #w0002810 #c0002820 #w0002830 #c0002840 #w0002850 #c0002860 #w0002870 #c0002880 #w0002890 #c0002900 #w0002910 #p0002920"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002760" n="1.1.18">I</w>
+          <pc xml:id="p0002770" n="1.1.18">,</pc>
+          <c xml:id="c0002780" n="1.1.18">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002790" n="1.1.18">that</w>
+          <c xml:id="c0002800" n="1.1.18">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002810" n="1.1.18">am</w>
+          <c xml:id="c0002820" n="1.1.18">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002830" n="1.1.18">curtailed</w>
+          <c xml:id="c0002840" n="1.1.18">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002850" n="1.1.18">of</w>
+          <c xml:id="c0002860" n="1.1.18">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002870" n="1.1.18">this</w>
+          <c xml:id="c0002880" n="1.1.18">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002890" n="1.1.18">fair</w>
+          <c xml:id="c0002900" n="1.1.18">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002910" n="1.1.18">proportion</w>
+          <pc xml:id="p0002920" n="1.1.18">,</pc>
+          <lb xml:id="lb-00180"/>
+          <milestone unit="ftln" xml:id="ftln-0019" n="1.1.19" ana="#verse" corresp="#w0002930 #c0002940 #w0002950 #c0002960 #w0002970 #c0002980 #w0002990 #c0003000 #w0003010 #c0003020 #w0003030 #p0003040"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002930" n="1.1.19">Cheated</w>
+          <c xml:id="c0002940" n="1.1.19">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002950" n="1.1.19">of</w>
+          <c xml:id="c0002960" n="1.1.19">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002970" n="1.1.19">feature</w>
+          <c xml:id="c0002980" n="1.1.19">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0002990" n="1.1.19">by</w>
+          <c xml:id="c0003000" n="1.1.19">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003010" n="1.1.19">dissembling</w>
+          <c xml:id="c0003020" n="1.1.19">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003030" n="1.1.19">nature</w>
+          <pc xml:id="p0003040" n="1.1.19">,</pc>
+          <lb xml:id="lb-00190"/>
+          <milestone unit="ftln" xml:id="ftln-0020" n="1.1.20" ana="#verse" corresp="#w0003050 #p0003060 #c0003070 #w0003080 #p0003090 #c0003100 #w0003110 #c0003120 #w0003130 #c0003140 #w0003150 #c0003160 #w0003170"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003050" n="1.1.20">Deformed</w>
+          <pc xml:id="p0003060" n="1.1.20">,</pc>
+          <c xml:id="c0003070" n="1.1.20">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003080" n="1.1.20">unfinished</w>
+          <pc xml:id="p0003090" n="1.1.20">,</pc>
+          <c xml:id="c0003100" n="1.1.20">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003110" n="1.1.20">sent</w>
+          <c xml:id="c0003120" n="1.1.20">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003130" n="1.1.20">before</w>
+          <c xml:id="c0003140" n="1.1.20">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003150" n="1.1.20">my</w>
+          <c xml:id="c0003160" n="1.1.20">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003170" n="1.1.20">time</w>
+          <lb xml:id="lb-00200"/>
+          <milestone unit="ftln" xml:id="ftln-0021" n="1.1.21" ana="#verse" corresp="#w0003180 #c0003190 #w0003200 #c0003210 #w0003220 #c0003230 #w0003240 #c0003250 #w0003260 #c0003270 #w0003280 #c0003290 #w0003300 #c0003310 #w0003320 #p0003330"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003180" n="1.1.21">Into</w>
+          <c xml:id="c0003190" n="1.1.21">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003200" n="1.1.21">this</w>
+          <c xml:id="c0003210" n="1.1.21">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003220" n="1.1.21">breathing</w>
+          <c xml:id="c0003230" n="1.1.21">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003240" n="1.1.21">world</w>
+          <c xml:id="c0003250" n="1.1.21">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003260" n="1.1.21">scarce</w>
+          <c xml:id="c0003270" n="1.1.21">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003280" n="1.1.21">half</w>
+          <c xml:id="c0003290" n="1.1.21">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003300" n="1.1.21">made</w>
+          <c xml:id="c0003310" n="1.1.21">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003320" n="1.1.21">up</w>
+          <pc xml:id="p0003330" n="1.1.21">,</pc>
+          <lb xml:id="lb-00210"/>
+          <milestone unit="ftln" xml:id="ftln-0022" n="1.1.22" ana="#verse" corresp="#w0003340 #c0003350 #w0003360 #c0003370 #w0003380 #c0003390 #w0003400 #c0003410 #w0003420 #c0003430 #w0003440"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003340" n="1.1.22">And</w>
+          <c xml:id="c0003350" n="1.1.22">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003360" n="1.1.22">that</w>
+          <c xml:id="c0003370" n="1.1.22">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003380" n="1.1.22">so</w>
+          <c xml:id="c0003390" n="1.1.22">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003400" n="1.1.22">lamely</w>
+          <c xml:id="c0003410" n="1.1.22">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003420" n="1.1.22">and</w>
+          <c xml:id="c0003430" n="1.1.22">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003440" n="1.1.22">unfashionable</w>
+          <lb xml:id="lb-00220"/>
+          <milestone unit="ftln" xml:id="ftln-0023" n="1.1.23" ana="#verse" corresp="#w0003450 #c0003460 #w0003470 #c0003480 #w0003490 #c0003500 #w0003510 #c0003520 #w0003530 #c0003540 #w0003550 #c0003560 #w0003570 #c0003580 #w0003590 #c0003600 #w0003610 #c0003620 #w0003630 #p0003640"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003450" n="1.1.23">That</w>
+          <c xml:id="c0003460" n="1.1.23">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003470" n="1.1.23">dogs</w>
+          <c xml:id="c0003480" n="1.1.23">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003490" n="1.1.23">bark</w>
+          <c xml:id="c0003500" n="1.1.23">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003510" n="1.1.23">at</w>
+          <c xml:id="c0003520" n="1.1.23">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003530" n="1.1.23">me</w>
+          <c xml:id="c0003540" n="1.1.23">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003550" n="1.1.23">as</w>
+          <c xml:id="c0003560" n="1.1.23">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003570" n="1.1.23">I</w>
+          <c xml:id="c0003580" n="1.1.23">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003590" n="1.1.23">halt</w>
+          <c xml:id="c0003600" n="1.1.23">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003610" n="1.1.23">by</w>
+          <c xml:id="c0003620" n="1.1.23">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003630" n="1.1.23">them</w>
+          <pc xml:id="p0003640" n="1.1.23">—</pc>
+          <lb xml:id="lb-00230"/>
+          <milestone unit="page" xml:id="ms-009" n="9" />
+          <pb xml:id="pb-011" n="11" spanTo="#ms-011"/>
+          <fw xml:id="ph-011" type="header" n="11">ACT 1. SC. 1</fw>
+          <milestone unit="ftln" xml:id="ftln-0024" n="1.1.24" ana="#verse" corresp="#w0003650 #p0003660 #c0003670 #w0003680 #p0003690 #c0003700 #w0003710 #c0003720 #w0003730 #c0003740 #w0003750 #c0003760 #w0003770 #c0003780 #w0003790 #c0003800 #w0003810 #c0003820 #w0003830 #p0003840"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003650" n="1.1.24">Why</w>
+          <pc xml:id="p0003660" n="1.1.24">,</pc>
+          <c xml:id="c0003670" n="1.1.24">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003680" n="1.1.24">I</w>
+          <pc xml:id="p0003690" n="1.1.24">,</pc>
+          <c xml:id="c0003700" n="1.1.24">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003710" n="1.1.24">in</w>
+          <c xml:id="c0003720" n="1.1.24">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003730" n="1.1.24">this</w>
+          <c xml:id="c0003740" n="1.1.24">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003750" n="1.1.24">weak</w>
+          <c xml:id="c0003760" n="1.1.24">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003770" n="1.1.24">piping</w>
+          <c xml:id="c0003780" n="1.1.24">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003790" n="1.1.24">time</w>
+          <c xml:id="c0003800" n="1.1.24">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003810" n="1.1.24">of</w>
+          <c xml:id="c0003820" n="1.1.24">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003830" n="1.1.24">peace</w>
+          <pc xml:id="p0003840" n="1.1.24">,</pc>
+          <lb xml:id="lb-00240"/>
+          <milestone unit="ftln" xml:id="ftln-0025" n="1.1.25" ana="#verse" corresp="#w0003850 #c0003860 #w0003870 #c0003880 #w0003890 #c0003900 #w0003910 #c0003920 #w0003930 #c0003940 #w0003950 #c0003960 #w0003970 #c0003980 #w0003990 #p0004000"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003850" n="1.1.25">Have</w>
+          <c xml:id="c0003860" n="1.1.25">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003870" n="1.1.25">no</w>
+          <c xml:id="c0003880" n="1.1.25">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003890" n="1.1.25">delight</w>
+          <c xml:id="c0003900" n="1.1.25">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003910" n="1.1.25">to</w>
+          <c xml:id="c0003920" n="1.1.25">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003930" n="1.1.25">pass</w>
+          <c xml:id="c0003940" n="1.1.25">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003950" n="1.1.25">away</w>
+          <c xml:id="c0003960" n="1.1.25">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003970" n="1.1.25">the</w>
+          <c xml:id="c0003980" n="1.1.25">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0003990" n="1.1.25">time</w>
+          <pc xml:id="p0004000" n="1.1.25">,</pc>
+          <lb xml:id="lb-00250"/>
+          <milestone unit="ftln" xml:id="ftln-0026" n="1.1.26" ana="#verse" corresp="#w0004010 #c0004020 #w0004030 #c0004040 #w0004050 #c0004060 #w0004070 #c0004080 #w0004090 #c0004100 #w0004110 #c0004120 #w0004130 #c0004140 #w0004150"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004010" n="1.1.26">Unless</w>
+          <c xml:id="c0004020" n="1.1.26">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004030" n="1.1.26">to</w>
+          <c xml:id="c0004040" n="1.1.26">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004050" n="1.1.26">see</w>
+          <c xml:id="c0004060" n="1.1.26">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004070" n="1.1.26">my</w>
+          <c xml:id="c0004080" n="1.1.26">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004090" n="1.1.26">shadow</w>
+          <c xml:id="c0004100" n="1.1.26">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004110" n="1.1.26">in</w>
+          <c xml:id="c0004120" n="1.1.26">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004130" n="1.1.26">the</w>
+          <c xml:id="c0004140" n="1.1.26">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004150" n="1.1.26">sun</w>
+          <lb xml:id="lb-00260"/>
+          <milestone unit="ftln" xml:id="ftln-0027" n="1.1.27" ana="#verse" corresp="#w0004160 #c0004170 #w0004180 #c0004190 #w0004200 #c0004210 #w0004220 #c0004230 #w0004240 #c0004250 #w0004260 #p0004270"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004160" n="1.1.27">And</w>
+          <c xml:id="c0004170" n="1.1.27">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004180" n="1.1.27">descant</w>
+          <c xml:id="c0004190" n="1.1.27">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004200" n="1.1.27">on</w>
+          <c xml:id="c0004210" n="1.1.27">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004220" n="1.1.27">mine</w>
+          <c xml:id="c0004230" n="1.1.27">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004240" n="1.1.27">own</w>
+          <c xml:id="c0004250" n="1.1.27">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004260" n="1.1.27">deformity</w>
+          <pc xml:id="p0004270" n="1.1.27">.</pc>
+          <lb xml:id="lb-00270"/>
+          <milestone unit="ftln" xml:id="ftln-0028" n="1.1.28" ana="#verse" corresp="#w0004280 #c0004290 #w0004300 #p0004310 #c0004320 #w0004330 #c0004340 #w0004350 #c0004360 #w0004370 #c0004380 #w0004390 #c0004400 #w0004410 #c0004420 #w0004430"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004280" n="1.1.28">And</w>
+          <c xml:id="c0004290" n="1.1.28">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004300" n="1.1.28">therefore</w>
+          <pc xml:id="p0004310" n="1.1.28">,</pc>
+          <c xml:id="c0004320" n="1.1.28">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004330" n="1.1.28">since</w>
+          <c xml:id="c0004340" n="1.1.28">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004350" n="1.1.28">I</w>
+          <c xml:id="c0004360" n="1.1.28">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004370" n="1.1.28">cannot</w>
+          <c xml:id="c0004380" n="1.1.28">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004390" n="1.1.28">prove</w>
+          <c xml:id="c0004400" n="1.1.28">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004410" n="1.1.28">a</w>
+          <c xml:id="c0004420" n="1.1.28">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004430" n="1.1.28">lover</w>
+          <lb xml:id="lb-00280"/>
+          <milestone unit="ftln" xml:id="ftln-0029" n="1.1.29" ana="#verse" corresp="#w0004440 #c0004450 #w0004460 #c0004470 #w0004480 #c0004490 #w0004500 #c0004510 #w0004520 #c0004530 #w0004540 #p0004550"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004440" n="1.1.29">To</w>
+          <c xml:id="c0004450" n="1.1.29">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004460" n="1.1.29">entertain</w>
+          <c xml:id="c0004470" n="1.1.29">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004480" n="1.1.29">these</w>
+          <c xml:id="c0004490" n="1.1.29">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004500" n="1.1.29">fair</w>
+          <c xml:id="c0004510" n="1.1.29">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004520" n="1.1.29">well-spoken</w>
+          <c xml:id="c0004530" n="1.1.29">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004540" n="1.1.29">days</w>
+          <pc xml:id="p0004550" n="1.1.29">,</pc>
+          <lb xml:id="lb-00290"/>
+          <milestone unit="ftln" xml:id="ftln-0030" n="1.1.30" ana="#verse" corresp="#w0004560 #c0004570 #w0004580 #c0004590 #w0004600 #c0004610 #w0004620 #c0004630 #w0004640 #c0004650 #w0004660 #c0004670 #w0004680"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004560" n="1.1.30">I</w>
+          <c xml:id="c0004570" n="1.1.30">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004580" n="1.1.30">am</w>
+          <c xml:id="c0004590" n="1.1.30">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004600" n="1.1.30">determinèd</w>
+          <c xml:id="c0004610" n="1.1.30">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004620" n="1.1.30">to</w>
+          <c xml:id="c0004630" n="1.1.30">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004640" n="1.1.30">prove</w>
+          <c xml:id="c0004650" n="1.1.30">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004660" n="1.1.30">a</w>
+          <c xml:id="c0004670" n="1.1.30">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004680" n="1.1.30">villain</w>
+          <lb xml:id="lb-00300"/>
+          <milestone unit="ftln" xml:id="ftln-0031" n="1.1.31" ana="#verse" corresp="#w0004690 #c0004700 #w0004710 #c0004720 #w0004730 #c0004740 #w0004750 #c0004760 #w0004770 #c0004780 #w0004790 #c0004800 #w0004810 #c0004820 #w0004830 #p0004840"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004690" n="1.1.31">And</w>
+          <c xml:id="c0004700" n="1.1.31">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004710" n="1.1.31">hate</w>
+          <c xml:id="c0004720" n="1.1.31">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004730" n="1.1.31">the</w>
+          <c xml:id="c0004740" n="1.1.31">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004750" n="1.1.31">idle</w>
+          <c xml:id="c0004760" n="1.1.31">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004770" n="1.1.31">pleasures</w>
+          <c xml:id="c0004780" n="1.1.31">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004790" n="1.1.31">of</w>
+          <c xml:id="c0004800" n="1.1.31">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004810" n="1.1.31">these</w>
+          <c xml:id="c0004820" n="1.1.31">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004830" n="1.1.31">days</w>
+          <pc xml:id="p0004840" n="1.1.31">.</pc>
+          <lb xml:id="lb-00310"/>
+          <milestone unit="ftln" xml:id="ftln-0032" n="1.1.32" ana="#verse" corresp="#w0004850 #c0004860 #w0004870 #c0004880 #w0004890 #c0004900 #w0004910 #p0004920 #c0004930 #w0004940 #c0004950 #w0004960 #p0004970"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004850" n="1.1.32">Plots</w>
+          <c xml:id="c0004860" n="1.1.32">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004870" n="1.1.32">have</w>
+          <c xml:id="c0004880" n="1.1.32">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004890" n="1.1.32">I</w>
+          <c xml:id="c0004900" n="1.1.32">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004910" n="1.1.32">laid</w>
+          <pc xml:id="p0004920" n="1.1.32">,</pc>
+          <c xml:id="c0004930" n="1.1.32">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004940" n="1.1.32">inductions</w>
+          <c xml:id="c0004950" n="1.1.32">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004960" n="1.1.32">dangerous</w>
+          <pc xml:id="p0004970" n="1.1.32">,</pc>
+          <lb xml:id="lb-00320"/>
+          <milestone unit="ftln" xml:id="ftln-0033" n="1.1.33" ana="#verse" corresp="#w0004980 #c0004990 #w0005000 #c0005010 #w0005020 #p0005030 #c0005040 #w0005050 #p0005060 #c0005070 #w0005080 #c0005090 #w0005100 #p0005110"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0004980" n="1.1.33">By</w>
+          <c xml:id="c0004990" n="1.1.33">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005000" n="1.1.33">drunken</w>
+          <c xml:id="c0005010" n="1.1.33">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005020" n="1.1.33">prophecies</w>
+          <pc xml:id="p0005030" n="1.1.33">,</pc>
+          <c xml:id="c0005040" n="1.1.33">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005050" n="1.1.33">libels</w>
+          <pc xml:id="p0005060" n="1.1.33">,</pc>
+          <c xml:id="c0005070" n="1.1.33">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005080" n="1.1.33">and</w>
+          <c xml:id="c0005090" n="1.1.33">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005100" n="1.1.33">dreams</w>
+          <pc xml:id="p0005110" n="1.1.33">,</pc>
+          <lb xml:id="lb-00330"/>
+          <milestone unit="ftln" xml:id="ftln-0034" n="1.1.34" ana="#verse" corresp="#w0005120 #c0005130 #w0005140 #c0005150 #w0005160 #c0005170 #w0005180 #c0005190 #w0005200 #c0005210 #w0005220 #c0005230 #w0005240 #c0005250 #w0005260"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005120" n="1.1.34">To</w>
+          <c xml:id="c0005130" n="1.1.34">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005140" n="1.1.34">set</w>
+          <c xml:id="c0005150" n="1.1.34">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005160" n="1.1.34">my</w>
+          <c xml:id="c0005170" n="1.1.34">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005180" n="1.1.34">brother</w>
+          <c xml:id="c0005190" n="1.1.34">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005200" n="1.1.34">Clarence</w>
+          <c xml:id="c0005210" n="1.1.34">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005220" n="1.1.34">and</w>
+          <c xml:id="c0005230" n="1.1.34">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005240" n="1.1.34">the</w>
+          <c xml:id="c0005250" n="1.1.34">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005260" n="1.1.34">King</w>
+          <lb xml:id="lb-00340"/>
+          <milestone unit="ftln" xml:id="ftln-0035" n="1.1.35" ana="#verse" corresp="#w0005270 #c0005280 #w0005290 #c0005300 #w0005310 #p0005320 #c0005330 #w0005340 #c0005350 #w0005360 #c0005370 #w0005380 #c0005390 #w0005400 #c0005410 #w0005420 #p0005430"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005270" n="1.1.35">In</w>
+          <c xml:id="c0005280" n="1.1.35">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005290" n="1.1.35">deadly</w>
+          <c xml:id="c0005300" n="1.1.35">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005310" n="1.1.35">hate</w>
+          <pc xml:id="p0005320" n="1.1.35">,</pc>
+          <c xml:id="c0005330" n="1.1.35">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005340" n="1.1.35">the</w>
+          <c xml:id="c0005350" n="1.1.35">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005360" n="1.1.35">one</w>
+          <c xml:id="c0005370" n="1.1.35">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005380" n="1.1.35">against</w>
+          <c xml:id="c0005390" n="1.1.35">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005400" n="1.1.35">the</w>
+          <c xml:id="c0005410" n="1.1.35">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005420" n="1.1.35">other</w>
+          <pc xml:id="p0005430" n="1.1.35">;</pc>
+          <lb xml:id="lb-00350"/>
+          <milestone unit="ftln" xml:id="ftln-0036" n="1.1.36" ana="#verse" corresp="#w0005440 #c0005450 #w0005460 #c0005470 #w0005480 #c0005490 #w0005500 #c0005510 #w0005520 #c0005530 #w0005540 #c0005550 #w0005560 #c0005570 #w0005580 #c0005590 #w0005600"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005440" n="1.1.36">And</w>
+          <c xml:id="c0005450" n="1.1.36">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005460" n="1.1.36">if</w>
+          <c xml:id="c0005470" n="1.1.36">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005480" n="1.1.36">King</w>
+          <c xml:id="c0005490" n="1.1.36">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005500" n="1.1.36">Edward</w>
+          <c xml:id="c0005510" n="1.1.36">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005520" n="1.1.36">be</w>
+          <c xml:id="c0005530" n="1.1.36">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005540" n="1.1.36">as</w>
+          <c xml:id="c0005550" n="1.1.36">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005560" n="1.1.36">true</w>
+          <c xml:id="c0005570" n="1.1.36">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005580" n="1.1.36">and</w>
+          <c xml:id="c0005590" n="1.1.36">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005600" n="1.1.36">just</w>
+          <lb xml:id="lb-00360"/>
+          <milestone unit="ftln" xml:id="ftln-0037" n="1.1.37" ana="#verse" corresp="#w0005610 #c0005620 #w0005630 #c0005640 #w0005650 #c0005660 #w0005670 #p0005680 #c0005690 #w0005700 #p0005710 #c0005720 #w0005730 #c0005740 #w0005750 #p0005760"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005610" n="1.1.37">As</w>
+          <c xml:id="c0005620" n="1.1.37">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005630" n="1.1.37">I</w>
+          <c xml:id="c0005640" n="1.1.37">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005650" n="1.1.37">am</w>
+          <c xml:id="c0005660" n="1.1.37">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005670" n="1.1.37">subtle</w>
+          <pc xml:id="p0005680" n="1.1.37">,</pc>
+          <c xml:id="c0005690" n="1.1.37">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005700" n="1.1.37">false</w>
+          <pc xml:id="p0005710" n="1.1.37">,</pc>
+          <c xml:id="c0005720" n="1.1.37">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005730" n="1.1.37">and</w>
+          <c xml:id="c0005740" n="1.1.37">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005750" n="1.1.37">treacherous</w>
+          <pc xml:id="p0005760" n="1.1.37">,</pc>
+          <lb xml:id="lb-00370"/>
+          <milestone unit="ftln" xml:id="ftln-0038" n="1.1.38" ana="#verse" corresp="#w0005770 #c0005780 #w0005790 #c0005800 #w0005810 #c0005820 #w0005830 #c0005840 #w0005850 #c0005860 #w0005870 #c0005880 #w0005890 #c0005900 #w0005910"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005770" n="1.1.38">This</w>
+          <c xml:id="c0005780" n="1.1.38">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005790" n="1.1.38">day</w>
+          <c xml:id="c0005800" n="1.1.38">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005810" n="1.1.38">should</w>
+          <c xml:id="c0005820" n="1.1.38">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005830" n="1.1.38">Clarence</w>
+          <c xml:id="c0005840" n="1.1.38">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005850" n="1.1.38">closely</w>
+          <c xml:id="c0005860" n="1.1.38">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005870" n="1.1.38">be</w>
+          <c xml:id="c0005880" n="1.1.38">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005890" n="1.1.38">mewed</w>
+          <c xml:id="c0005900" n="1.1.38">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005910" n="1.1.38">up</w>
+          <lb xml:id="lb-00380"/>
+          <milestone unit="ftln" xml:id="ftln-0039" n="1.1.39" ana="#verse" corresp="#w0005920 #c0005930 #w0005940 #c0005950 #w0005960 #c0005970 #w0005980 #c0005990 #w0006000 #c0006010 #w0006020 #c0006030 #w0006040"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005920" n="1.1.39">About</w>
+          <c xml:id="c0005930" n="1.1.39">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005940" n="1.1.39">a</w>
+          <c xml:id="c0005950" n="1.1.39">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005960" n="1.1.39">prophecy</w>
+          <c xml:id="c0005970" n="1.1.39">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0005980" n="1.1.39">which</w>
+          <c xml:id="c0005990" n="1.1.39">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006000" n="1.1.39">says</w>
+          <c xml:id="c0006010" n="1.1.39">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006020" n="1.1.39">that</w>
+          <c xml:id="c0006030" n="1.1.39">
+          </c>
+          <q xml:id="q-0001">
+            <w cut_hs="0" cut_gen="0" xml:id="w0006040" n="1.1.39">G</w>
+          </q>
+          <lb xml:id="lb-00390"/>
+          <milestone unit="ftln" xml:id="ftln-0040" n="1.1.40" ana="#verse" corresp="#w0006050 #c0006060 #w0006070 #c0006080 #w0006090 #c0006100 #w0006110 #c0006120 #w0006130 #c0006140 #w0006150 #c0006160 #w0006170 #p0006180"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006050" n="1.1.40">Of</w>
+          <c xml:id="c0006060" n="1.1.40">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006070" n="1.1.40">Edward’s</w>
+          <c xml:id="c0006080" n="1.1.40">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006090" n="1.1.40">heirs</w>
+          <c xml:id="c0006100" n="1.1.40">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006110" n="1.1.40">the</w>
+          <c xml:id="c0006120" n="1.1.40">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006130" n="1.1.40">murderer</w>
+          <c xml:id="c0006140" n="1.1.40">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006150" n="1.1.40">shall</w>
+          <c xml:id="c0006160" n="1.1.40">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006170" n="1.1.40">be</w>
+          <pc xml:id="p0006180" n="1.1.40">.</pc>
+          <lb xml:id="lb-00400"/>
+          <milestone unit="ftln" xml:id="ftln-0041" n="1.1.41" ana="#verse" next="#ftln-0042" corresp="#w0006190 #p0006200 #c0006210 #w0006220 #p0006230 #c0006240 #w0006250 #c0006260 #w0006270 #c0006280 #w0006290 #c0006300 #w0006310 #p0006320 #c0006330 #w0006340 #c0006350 #w0006360"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006190" n="1.1.41">Dive</w>
+          <pc xml:id="p0006200" n="1.1.41">,</pc>
+          <c xml:id="c0006210" n="1.1.41">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006220" n="1.1.41">thoughts</w>
+          <pc xml:id="p0006230" n="1.1.41">,</pc>
+          <c xml:id="c0006240" n="1.1.41">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006250" n="1.1.41">down</w>
+          <c xml:id="c0006260" n="1.1.41">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006270" n="1.1.41">to</w>
+          <c xml:id="c0006280" n="1.1.41">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006290" n="1.1.41">my</w>
+          <c xml:id="c0006300" n="1.1.41">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006310" n="1.1.41">soul</w>
+          <pc xml:id="p0006320" n="1.1.41">.</pc>
+          <c xml:id="c0006330" n="1.1.41">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006340" n="1.1.41">Here</w>
+          <c xml:id="c0006350" n="1.1.41">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006360" n="1.1.41">Clarence</w>
+          <lb xml:id="lb-00410"/>
+          <milestone unit="ftln" xml:id="ftln-0042" n="1.1.42" ana="#verse" prev="#ftln-0041" rend="turnunder" corresp="#w0006370 #p0006380"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006370" n="1.1.42">comes</w>
+          <pc xml:id="p0006380" n="1.1.42">.</pc>
+          <lb xml:id="lb-00420"/>
+          <lb xml:id="lb-00421"/>
+          <stage xml:id="stg-0042.1" n="SD 1.1.42.1" type="entrance" who="#Clarence_3H6 #Brakenbury_R3 #GUARDS_R3">
+            <w cut_hs="0" cut_gen="0" xml:id="w0006390" n="SD 1.1.42.1">Enter</w>
+            <c xml:id="c0006400" n="SD 1.1.42.1">
+            </c>
+            <w cut_hs="0" cut_gen="0" xml:id="w0006410" n="SD 1.1.42.1">Clarence</w>
+            <pc xml:id="p0006420" n="SD 1.1.42.1">,</pc>
+            <c xml:id="c0006430" n="SD 1.1.42.1">
+            </c>
+            <w cut_hs="0" cut_gen="0" xml:id="w0006440" n="SD 1.1.42.1">guarded</w>
+            <pc xml:id="p0006450" n="SD 1.1.42.1">,</pc>
+            <c xml:id="c0006460" n="SD 1.1.42.1">
+            </c>
+            <w cut_hs="0" cut_gen="0" xml:id="w0006470" n="SD 1.1.42.1">and</w>
+            <c xml:id="c0006480" n="SD 1.1.42.1">
+            </c>
+            <w cut_hs="0" cut_gen="0" xml:id="w0006490" n="SD 1.1.42.1">Brakenbury</w>
+            <pc xml:id="p0006500" n="SD 1.1.42.1">.</pc>
+          </stage>
+          <lb xml:id="lb-00422"/>
+          <lb xml:id="lb-00423"/>
+          <milestone unit="ftln" xml:id="ftln-0043" n="1.1.43" ana="#verse" corresp="#w0006510 #p0006520 #c0006530 #w0006540 #c0006550 #w0006560 #p0006570 #c0006580 #w0006590 #c0006600 #w0006610 #c0006620 #w0006630 #c0006640 #w0006650 #c0006660 #w0006670"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006510" n="1.1.43">Brother</w>
+          <pc xml:id="p0006520" n="1.1.43">,</pc>
+          <c xml:id="c0006530" n="1.1.43">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006540" n="1.1.43">good</w>
+          <c xml:id="c0006550" n="1.1.43">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006560" n="1.1.43">day</w>
+          <pc xml:id="p0006570" n="1.1.43">.</pc>
+          <c xml:id="c0006580" n="1.1.43">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006590" n="1.1.43">What</w>
+          <c xml:id="c0006600" n="1.1.43">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006610" n="1.1.43">means</w>
+          <c xml:id="c0006620" n="1.1.43">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006630" n="1.1.43">this</w>
+          <c xml:id="c0006640" n="1.1.43">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006650" n="1.1.43">armèd</w>
+          <c xml:id="c0006660" n="1.1.43">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006670" n="1.1.43">guard</w>
+          <lb xml:id="lb-00430"/>
+          <milestone unit="ftln" xml:id="ftln-0044" n="1.1.44" ana="#verse" next="#ftln-0045" corresp="#w0006680 #c0006690 #w0006700 #c0006710 #w0006720 #c0006730 #w0006740 #c0006750 #w0006760 #p0006770"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006680" n="1.1.44">That</w>
+          <c xml:id="c0006690" n="1.1.44">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006700" n="1.1.44">waits</w>
+          <c xml:id="c0006710" n="1.1.44">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006720" n="1.1.44">upon</w>
+          <c xml:id="c0006730" n="1.1.44">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006740" n="1.1.44">your</w>
+          <c xml:id="c0006750" n="1.1.44">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006760" n="1.1.44">Grace</w>
+          <pc xml:id="p0006770" n="1.1.44">?</pc>
+        </ab>
+      </sp>
+      <lb xml:id="lb-00440"/>
+      <sp xml:id="sp-0045" who="#Clarence_3H6">
+        <speaker xml:id="spk-0045">
+          <w cut_hs="0" cut_gen="0" xml:id="w0006780">CLARENCE</w>
+        </speaker>
+        <ab xml:id="ab-0045">
+          <milestone unit="ftln" xml:id="ftln-0045" n="1.1.45" ana="#verse" prev="#ftln-0044" corresp="#w0006790 #c0006800 #w0006810 #p0006820"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006790" n="1.1.45">His</w>
+          <c xml:id="c0006800" n="1.1.45">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006810" n="1.1.45">Majesty</w>
+          <pc xml:id="p0006820" n="1.1.45">,</pc>
+          <lb xml:id="lb-00450"/>
+          <milestone unit="ftln" xml:id="ftln-0046" n="1.1.46" ana="#verse" corresp="#w0006830 #c0006840 #w0006850 #c0006860 #w0006870 #c0006880 #w0006890 #p0006900 #c0006910 #w0006920 #c0006930 #w0006940"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006830" n="1.1.46">Tend’ring</w>
+          <c xml:id="c0006840" n="1.1.46">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006850" n="1.1.46">my</w>
+          <c xml:id="c0006860" n="1.1.46">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006870" n="1.1.46">person’s</w>
+          <c xml:id="c0006880" n="1.1.46">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006890" n="1.1.46">safety</w>
+          <pc xml:id="p0006900" n="1.1.46">,</pc>
+          <c xml:id="c0006910" n="1.1.46">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006920" n="1.1.46">hath</w>
+          <c xml:id="c0006930" n="1.1.46">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006940" n="1.1.46">appointed</w>
+          <lb xml:id="lb-00460"/>
+          <milestone unit="ftln" xml:id="ftln-0047" n="1.1.47" ana="#verse" corresp="#w0006950 #c0006960 #w0006970 #c0006980 #w0006990 #c0007000 #w0007010 #c0007020 #w0007030 #c0007040 #w0007050 #c0007060 #w0007070 #c0007080 #w0007090 #p0007100"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006950" n="1.1.47">This</w>
+          <c xml:id="c0006960" n="1.1.47">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006970" n="1.1.47">conduct</w>
+          <c xml:id="c0006980" n="1.1.47">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0006990" n="1.1.47">to</w>
+          <c xml:id="c0007000" n="1.1.47">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007010" n="1.1.47">convey</w>
+          <c xml:id="c0007020" n="1.1.47">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007030" n="1.1.47">me</w>
+          <c xml:id="c0007040" n="1.1.47">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007050" n="1.1.47">to</w>
+          <c xml:id="c0007060" n="1.1.47">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007070" n="1.1.47">the</w>
+          <c xml:id="c0007080" n="1.1.47">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007090" n="1.1.47">Tower</w>
+          <pc xml:id="p0007100" n="1.1.47">.</pc>
+        </ab>
+      </sp>
+      <lb xml:id="lb-00470"/>
+      <sp xml:id="sp-0048" who="#RichardIII_R3">
+        <speaker xml:id="spk-0048">
+          <w cut_hs="0" cut_gen="0" xml:id="w0007110">RICHARD</w>
+        </speaker>
+        <ab xml:id="ab-0048">
+          <lb xml:id="lb-00471"/>
+          <milestone unit="ftln" xml:id="ftln-0048" n="1.1.48" ana="#verse" next="#ftln-0049" corresp="#w0007120 #c0007130 #w0007140 #c0007150 #w0007160 #p0007170"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007120" n="1.1.48">Upon</w>
+          <c xml:id="c0007130" n="1.1.48">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007140" n="1.1.48">what</w>
+          <c xml:id="c0007150" n="1.1.48">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007160" n="1.1.48">cause</w>
+          <pc xml:id="p0007170" n="1.1.48">?</pc>
+        </ab>
+      </sp>
+      <lb xml:id="lb-00480"/>
+      <sp xml:id="sp-0049" who="#Clarence_3H6">
+        <speaker xml:id="spk-0049">
+          <w cut_hs="0" cut_gen="0" xml:id="w0007180">CLARENCE</w>
+        </speaker>
+        <ab xml:id="ab-0049">
+          <milestone unit="ftln" xml:id="ftln-0049" n="1.1.49" ana="#verse" prev="#ftln-0048" next="#ftln-0050" corresp="#w0007190 #c0007200 #w0007210 #c0007220 #w0007230 #c0007240 #w0007250"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007190" n="1.1.49">Because</w>
+          <c xml:id="c0007200" n="1.1.49">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007210" n="1.1.49">my</w>
+          <c xml:id="c0007220" n="1.1.49">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007230" n="1.1.49">name</w>
+          <c xml:id="c0007240" n="1.1.49">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007250" n="1.1.49">is</w>
+          <lb xml:id="lb-00490"/>
+          <milestone unit="ftln" xml:id="ftln-0050" n="1.1.50" ana="#verse" prev="#ftln-0049" rend="turnunder" corresp="#w0007260 #p0007270"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007260" n="1.1.50">George</w>
+          <pc xml:id="p0007270" n="1.1.50">.</pc>
+        </ab>
+      </sp>
+      <lb xml:id="lb-00500"/>
+      <sp xml:id="sp-0051" who="#RichardIII_R3">
+        <speaker xml:id="spk-0051">
+          <w cut_hs="0" cut_gen="0" xml:id="w0007280">RICHARD</w>
+        </speaker>
+        <ab xml:id="ab-0051">
+          <lb xml:id="lb-00501"/>
+          <milestone unit="ftln" xml:id="ftln-0051" n="1.1.51" ana="#verse" corresp="#w0007290 #p0007300 #c0007310 #w0007320 #c0007330 #w0007340 #p0007350 #c0007360 #w0007370 #c0007380 #w0007390 #c0007400 #w0007410 #c0007420 #w0007430 #c0007440 #w0007450 #c0007460 #w0007470 #p0007480"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007290" n="1.1.51">Alack</w>
+          <pc xml:id="p0007300" n="1.1.51">,</pc>
+          <c xml:id="c0007310" n="1.1.51">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007320" n="1.1.51">my</w>
+          <c xml:id="c0007330" n="1.1.51">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007340" n="1.1.51">lord</w>
+          <pc xml:id="p0007350" n="1.1.51">,</pc>
+          <c xml:id="c0007360" n="1.1.51">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007370" n="1.1.51">that</w>
+          <c xml:id="c0007380" n="1.1.51">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007390" n="1.1.51">fault</w>
+          <c xml:id="c0007400" n="1.1.51">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007410" n="1.1.51">is</w>
+          <c xml:id="c0007420" n="1.1.51">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007430" n="1.1.51">none</w>
+          <c xml:id="c0007440" n="1.1.51">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007450" n="1.1.51">of</w>
+          <c xml:id="c0007460" n="1.1.51">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007470" n="1.1.51">yours</w>
+          <pc xml:id="p0007480" n="1.1.51">.</pc>
+          <lb xml:id="lb-00510"/>
+          <milestone unit="ftln" xml:id="ftln-0052" n="1.1.52" ana="#verse" corresp="#w0007490 #c0007500 #w0007510 #p0007520 #c0007530 #w0007540 #c0007550 #w0007560 #p0007570 #c0007580 #w0007590 #c0007600 #w0007610 #c0007620 #w0007630 #p0007640"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007490" n="1.1.52">He</w>
+          <c xml:id="c0007500" n="1.1.52">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007510" n="1.1.52">should</w>
+          <pc xml:id="p0007520" n="1.1.52">,</pc>
+          <c xml:id="c0007530" n="1.1.52">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007540" n="1.1.52">for</w>
+          <c xml:id="c0007550" n="1.1.52">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007560" n="1.1.52">that</w>
+          <pc xml:id="p0007570" n="1.1.52">,</pc>
+          <c xml:id="c0007580" n="1.1.52">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007590" n="1.1.52">commit</w>
+          <c xml:id="c0007600" n="1.1.52">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007610" n="1.1.52">your</w>
+          <c xml:id="c0007620" n="1.1.52">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007630" n="1.1.52">godfathers</w>
+          <pc xml:id="p0007640" n="1.1.52">.</pc>
+          <lb xml:id="lb-00520"/>
+          <milestone unit="ftln" xml:id="ftln-0053" n="1.1.53" ana="#verse" corresp="#w0007650 #p0007660 #c0007670 #w0007680 #c0007690 #w0007700 #c0007710 #w0007720 #c0007730 #w0007740 #c0007750 #w0007760 #c0007770 #w0007780"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007650" n="1.1.53">O</w>
+          <pc xml:id="p0007660" n="1.1.53">,</pc>
+          <c xml:id="c0007670" n="1.1.53">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007680" n="1.1.53">belike</w>
+          <c xml:id="c0007690" n="1.1.53">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007700" n="1.1.53">his</w>
+          <c xml:id="c0007710" n="1.1.53">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007720" n="1.1.53">Majesty</w>
+          <c xml:id="c0007730" n="1.1.53">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007740" n="1.1.53">hath</w>
+          <c xml:id="c0007750" n="1.1.53">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007760" n="1.1.53">some</w>
+          <c xml:id="c0007770" n="1.1.53">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007780" n="1.1.53">intent</w>
+          <lb xml:id="lb-00530"/>
+          <milestone unit="ftln" xml:id="ftln-0054" n="1.1.54" ana="#verse" corresp="#w0007790 #c0007800 #w0007810 #c0007820 #w0007830 #c0007840 #w0007850 #c0007860 #w0007870 #c0007880 #w0007890 #c0007900 #w0007910 #c0007920 #w0007930 #c0007940 #w0007950 #p0007960"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007790" n="1.1.54">That</w>
+          <c xml:id="c0007800" n="1.1.54">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007810" n="1.1.54">you</w>
+          <c xml:id="c0007820" n="1.1.54">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007830" n="1.1.54">should</w>
+          <c xml:id="c0007840" n="1.1.54">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007850" n="1.1.54">be</w>
+          <c xml:id="c0007860" n="1.1.54">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007870" n="1.1.54">new</w>
+          <c xml:id="c0007880" n="1.1.54">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007890" n="1.1.54">christened</w>
+          <c xml:id="c0007900" n="1.1.54">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007910" n="1.1.54">in</w>
+          <c xml:id="c0007920" n="1.1.54">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007930" n="1.1.54">the</w>
+          <c xml:id="c0007940" n="1.1.54">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007950" n="1.1.54">Tower</w>
+          <pc xml:id="p0007960" n="1.1.54">.</pc>
+          <lb xml:id="lb-00540"/>
+          <milestone unit="ftln" xml:id="ftln-0055" n="1.1.55" ana="#verse" corresp="#w0007970 #c0007980 #w0007990 #c0008000 #w0008010 #c0008020 #w0008030 #p0008040 #c0008050 #w0008060 #p0008070 #c0008080 #w0008090 #c0008100 #w0008110 #c0008120 #w0008130 #p0008140"/>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007970" n="1.1.55">But</w>
+          <c xml:id="c0007980" n="1.1.55">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0007990" n="1.1.55">what’s</w>
+          <c xml:id="c0008000" n="1.1.55">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0008010" n="1.1.55">the</w>
+          <c xml:id="c0008020" n="1.1.55">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0008030" n="1.1.55">matter</w>
+          <pc xml:id="p0008040" n="1.1.55">,</pc>
+          <c xml:id="c0008050" n="1.1.55">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0008060" n="1.1.55">Clarence</w>
+          <pc xml:id="p0008070" n="1.1.55">?</pc>
+          <c xml:id="c0008080" n="1.1.55">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0008090" n="1.1.55">May</w>
+          <c xml:id="c0008100" n="1.1.55">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0008110" n="1.1.55">I</w>
+          <c xml:id="c0008120" n="1.1.55">
+          </c>
+          <w cut_hs="0" cut_gen="0" xml:id="w0008130" n="1.1.55">know</w>
+          <pc xml:id="p0008140" n="1.1.55">?</pc>
+        </ab>
+      </sp>
+    </div2>
+    </div1>
+  </body>
+</root>
