@@ -8,18 +8,29 @@
 .character-name {
   font-weight:bold;
   text-transform: uppercase;
-  margin-top: 10px;
 }
 .characters-list{
   list-style-type: none;
 }
-.cut{
+/* character names! */
+/* .RichardIII_R3 {
+  color: red;
+} */
+/* .cut{
   color: purple;
   display: none;
+} */
+
+.cut-hs {
+  text-decoration: line-through red;
 }
-.lines {
-  margin-left: 50px;
-  margin-bottom: 10px;
+
+.cut-gen {
+  text-decoration: line-through blue;
+}
+
+.line {
+  /* color: purple; */
 }
 .scene {
   border-top: 1px dotted gray
@@ -28,8 +39,12 @@
   font-size: 1.25em;
   font-style: italic;
 }
-.stage-directions {
+.speech-start {
+  padding-top: 10px;
+}
+.stage-direction {
   font-style: italic;
+  color: orange;
 }
 .title {
 }

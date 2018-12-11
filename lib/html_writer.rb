@@ -3,26 +3,23 @@ require_relative 'script_parser/line'
 require 'nokogiri'
 
 @current_speaker = ''
-
 def add_value_to_dictionary(value)
   key = value.attr('xml:id')
   @dictionary[key] = value
 end
 
 def build_act(act)
-  puts "buiding act #{act.attr('n')}"
   @html << "<div class='act'>"
     @html << "<h2>"
       @html << "Act #{act.attr('n')}"
     @html << "</h2>"
   @html << "</div>"
-  act.xpath("//div2").each do |scene|
+  act.xpath("div2").each do |scene|
     build_scene(act, scene)
   end
 end
 
 def build_dictionary
-  puts "buildng dictionary"
   @dictionary = {}
   @file.xpath('//w').each do |value|
     add_value_to_dictionary(value)
@@ -35,32 +32,45 @@ def build_dictionary
   end
 end
 
-def build_line
+def build_line(milestone, next_milestone = nil)
+  milestone_line = []
+  line_pieces = milestone.attr('corresp').split(/ /)
+  next_line = []
+  if next_milestone && next_milestone.attr('rend') == 'turnunder'
+    next_line_pieces = next_milestone.attr('corresp').split(/ /)
+    next_line_pieces.each do |id|
+      id.sub!(/#/, '')
+      next_line << @dictionary[id].text
+    end
+    next_line[0] = " #{next_line[0]}"
+  end
+  line_pieces.each do |id|
+    id.sub!(/#/, '')
+    milestone_line << @dictionary[id].text
+  end
+  completed_line = milestone_line.flatten.join
+  completed_line = completed_line + next_line.join
 end
 
 def build_play
-  puts "building play"
   @file.xpath("//div1").each do |act|
     build_act(act)
   end
 end
 
 def build_scene(act, scene)
-  puts "building scene #{scene.attr('n')}"
   @html << "<div class='scene'>"
     @html << "<h3>"
       @html << "Act #{act.attr('n')}, Scene #{scene.attr('n')}"
     @html << "</h3>"
   @html << "</div>"
   scene.children.each do |child|
-    if child.name == 'text'
-      process_text(child)
-    elsif child.name == 'sp'
+    if child.name == 'sp'
       process_speech(child)
     elsif child.name == 'stage'
       process_stage_direction(child)
     else
-      # puts child.name
+      
     end
   end
 end
@@ -87,29 +97,42 @@ def create_html
       @html << "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>"
     @html << "</head>"
     @html << "<body>"
-      @html << "<h1>"
-        @html << "#{title}"
-      @html << "</h1>"
-      @html << "<h4>"
-        @html << "<em>"
-          @html << "Modified from the Folger Digital Texts, edited by #{editors}"
-        @html << "</em>"
-      @html << "</h4>"
-      @html << "<div class='dramatis_personae'>"
-        @html << "<h2>"
-          @html << "People in the Play"
-        @html << "</h2>"
-        @html << "<ul class=\"characters-list\">"
-          list_people
-        @html << "</ul>"
-      @html << "</div>"
-      @html << "<div>"
-        build_play
-      @html << "</div>"
+      @html << "<div class='container'>"
+        @html << "<h1>"
+          @html << "#{title}"
+        @html << "</h1>"
+        @html << "<h4>"
+          @html << "<em>"
+            @html << "Modified from the Folger Digital Texts, edited by #{editors}"
+          @html << "</em>"
+        @html << "</h4>"
+        @html << "<div class='dramatis_personae'>"
+          @html << "<h2>"
+            @html << "People in the Play"
+          @html << "</h2>"
+          @html << "<ul class=\"characters-list\">"
+            list_people
+          @html << "</ul>"
+        @html << "</div>"
+        @html << "<div>"
+          build_play
+        @html << "</div>"
+      @html << "</div>" #closing bootstrap container
     @html << "</body>"
   @html << "</html>"
   html_file = File.new('data/html_output.html', 'w')
   html_file.write(@html)
+end
+
+def line_cut(milestone)
+  classes = []
+  if milestone.attr('cut_hs').to_i == 1
+    classes << 'cut-hs'
+  end
+  if milestone.attr('cut_gen').to_i == 1
+    classes << 'cut-gen'
+  end
+  return classes.join(' ')
 end
 
 def list_people
@@ -133,36 +156,39 @@ def list_people
   end
 end
 
-def map_ids_to_words_and_characters(id)
-
-end
-
 def process_speech(element)
-  puts "processing speech"
   speaker_name = element.xpath("speaker").text
   speaker_name.strip!
-  element.xpath('//milestone').each do |milestone|
+  character_xml_id = element.attr('who').sub(/#/, '')
+  element.xpath('ab//milestone').each do |milestone|
     if milestone.attr('unit') == 'ftln'
-      milestone_line = []
-      line_pieces = milestone.attr('corresp').split(/ /)
-      line_pieces.each do |id|
-        id.sub!(/#/, '')
-        milestone_line << @dictionary[id].text
+      next_milestone = element.xpath('ab//milestone')[element.xpath('ab//milestone').index(milestone) + 1]
+      completed_line = build_line(milestone, next_milestone)
+      if milestone.attr('rend') == 'turnunder'
+        next
       end
-      completed_line = milestone_line.join('')
-      if @current_speaker == speaker_name || @current_speaker.empty?
-        @html << "#{completed_line}"
-        @current_speaker = speaker_name
+      if @current_speaker == speaker_name
+        @html << "<div class='row line'>"
+        @html << "<div class='col-md-2'></div><div class='col-md-10 #{line_cut(milestone)} #{character_xml_id}'>#{completed_line}<br /></div>"
+        @html << "</div>"
       else
         @current_speaker = speaker_name
-        @html << "#{speaker_name}: #{completed_line}"
+        @html << "<div class='row speech-start line'>" #start row of speech
+        @html << "<div class='col-md-2 character-name'>#{speaker_name}:</div><div class='col-md-10 #{line_cut(milestone)} #{character_xml_id}'> #{completed_line}<br /></div>"
+        @html << "</div>"
       end
     end
   end
 end
-def process_text(element)
-end
+
 def process_stage_direction(element)
+  stage_direction_pieces = element.children
+  stage_direction = stage_direction_pieces.map(&:text)
+  stage_direction = stage_direction.join
+  stage_direction.gsub!(/\s+\./, '.')
+  stage_direction.gsub!(/\s+\,/, ',')
+  @html << "<div class='stage-direction'>#{stage_direction}</div>"
+
 end
 def read_xml(xml_document)
   @file = xml_document
