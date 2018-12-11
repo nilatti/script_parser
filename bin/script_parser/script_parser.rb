@@ -14,6 +14,7 @@ parsed_xml = Nokogiri::XML.parse(xml_doc)
 #   puts "I hate to tell you this, but you still need to cut #{(run_time_minutes - goal_time).round(2)} minutes from this text."
 # end
 read_xml(parsed_xml)
+build_dictionary
 create_html
 # puts "HS cut"
 # puts "#{self.total_lines('cut_hs')} lines"

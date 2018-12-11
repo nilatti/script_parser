@@ -2,8 +2,15 @@ require_relative 'script_parser/character'
 require_relative 'script_parser/line'
 require 'nokogiri'
 
+@current_speaker = ''
+
+def add_value_to_dictionary(value)
+  key = value.attr('xml:id')
+  @dictionary[key] = value
+end
 
 def build_act(act)
+  puts "buiding act #{act.attr('n')}"
   @html << "<div class='act'>"
     @html << "<h2>"
       @html << "Act #{act.attr('n')}"
@@ -14,23 +21,47 @@ def build_act(act)
   end
 end
 
+def build_dictionary
+  puts "buildng dictionary"
+  @dictionary = {}
+  @file.xpath('//w').each do |value|
+    add_value_to_dictionary(value)
+  end
+  @file.xpath('//pc').each do |value|
+    add_value_to_dictionary(value)
+  end
+  @file.xpath('//c').each do |value|
+    add_value_to_dictionary(value)
+  end
+end
+
 def build_line
 end
 
 def build_play
+  puts "building play"
   @file.xpath("//div1").each do |act|
     build_act(act)
   end
 end
 
 def build_scene(act, scene)
+  puts "building scene #{scene.attr('n')}"
   @html << "<div class='scene'>"
     @html << "<h3>"
       @html << "Act #{act.attr('n')}, Scene #{scene.attr('n')}"
     @html << "</h3>"
   @html << "</div>"
   scene.children.each do |child|
-    puts child.name
+    if child.name == 'text'
+      process_text(child)
+    elsif child.name == 'sp'
+      process_speech(child)
+    elsif child.name == 'stage'
+      process_stage_direction(child)
+    else
+      # puts child.name
+    end
   end
 end
 
@@ -102,7 +133,37 @@ def list_people
   end
 end
 
+def map_ids_to_words_and_characters(id)
 
+end
+
+def process_speech(element)
+  puts "processing speech"
+  speaker_name = element.xpath("speaker").text
+  speaker_name.strip!
+  element.xpath('//milestone').each do |milestone|
+    if milestone.attr('unit') == 'ftln'
+      milestone_line = []
+      line_pieces = milestone.attr('corresp').split(/ /)
+      line_pieces.each do |id|
+        id.sub!(/#/, '')
+        milestone_line << @dictionary[id].text
+      end
+      completed_line = milestone_line.join('')
+      if @current_speaker == speaker_name || @current_speaker.empty?
+        @html << "#{completed_line}"
+        @current_speaker = speaker_name
+      else
+        @current_speaker = speaker_name
+        @html << "#{speaker_name}: #{completed_line}"
+      end
+    end
+  end
+end
+def process_text(element)
+end
+def process_stage_direction(element)
+end
 def read_xml(xml_document)
   @file = xml_document
 end
